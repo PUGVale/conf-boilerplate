@@ -7,14 +7,14 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "3º encontro Python Vale",
+      name: "4º encontro Python Vale",
       logo: "themes/yellow-swan/img/logo.png",
       description: "Grupo de usuários Python do vale!",
-      date: "02 de setembro de 2017",
+      date: "17 de março de 2017",
       // If your event is free, just comment this line
       // price: "1 quilo de feijão",
-      venue: "Faculdade Bilac",
-      address: "R. Francisco Paes, 84",
+      venue: "CEDEMP",
+      address: "R. Tsunessaburo Makiguti, 157",
       city: "São José dos Campos",
       state: "SP"
     },
@@ -22,8 +22,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Inscreva-se!",
-        link: "https://www.sympla.com.br/3-pugvale---grupo-de-usuarios-de-python-do-vale-do-paraiba__173342"
+        text: "Em breve",
+        link: "https://www.facebook.com/pythonvale/"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -44,10 +44,10 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
+      // 'speakers',
+      // 'schedule',
       'sponsors',
-      'partners',
+      // 'partners',
       'contact'
     ],
 

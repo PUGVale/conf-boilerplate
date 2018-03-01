@@ -45,7 +45,7 @@ module.exports = {
       'about',
       'location',
       // 'speakers',
-      'schedule',
+      // 'schedule',
       'sponsors',
       'partners',
       'contact'
@@ -65,8 +65,12 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Credenciamento e Apresentação",
-        time: "9h00",
+        name: "Credenciamento",
+        time: "9h40",
+      },
+      {
+        name: "Abertura oficial",
+        time: "10h00",
       },
       {
         name: "Mateus Vieira",

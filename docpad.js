@@ -13,8 +13,8 @@ module.exports = {
       date: "17 de março de 2017",
       // If your event is free, just comment this line
       // price: "1 quilo de feijão",
-      venue: "CEDEMP",
-      address: "R. Tsunessaburo Makiguti, 157",
+      venue: "CEFE (Centro de Formação do Educador)",
+      address: "Av Olivio Gomes, 250",
       city: "São José dos Campos",
       state: "SP"
     },
@@ -22,14 +22,14 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Em breve",
-        link: "https://www.facebook.com/pythonvale/"
+        text: "Call 4 Papers",
+        link: "https://speakerfight.com/events/4o-python-vale/"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    // forkButton: {
-    //     repository: "https://github.com/PUGVale/pug-abril"
-    // },
+    forkButton: {
+        repository: "https://github.com/PUGVale/site-evento-python-vale/"
+    },
 
     // Site info
     site: {
@@ -45,9 +45,9 @@ module.exports = {
       'about',
       'location',
       // 'speakers',
-      // 'schedule',
+      'schedule',
       'sponsors',
-      // 'partners',
+      'partners',
       'contact'
     ],
 
@@ -156,6 +156,11 @@ module.exports = {
         logo: "themes/yellow-swan/img/brasil317.png",
         url: "http://brasil317.com.br"
       },
+      {
+        name: "Django Girls São José dos Campos",
+        logo: "themes/yellow-swan/img/dgsjc.png",
+        url: "https://djangogirls.org/saojosedoscampos/"
+      },
     ],
 
     // List of Partners
@@ -166,20 +171,25 @@ module.exports = {
         url: "http://znc.com.br/"
       },
       {
-        name: "Casa do Código",
-        logo: "themes/yellow-swan/img/casadocodigo.png",
-        url: "http://www.casadocodigo.com.br"
+        name: "Necto",
+        logo: "themes/yellow-swan/img/alpha.png",
+        url: "http://znc.com.br/"
       },
-      {
-        name: "Faculdades Bilac",
-        logo: "themes/yellow-swan/img/bilac.jpg",
-        url: "http://bilac.com.br/"
-      },
-      {
-        name: "Allgoo",
-        logo: "themes/yellow-swan/img/allgoo.jpg",
-        url: "https://www.allgoo.com.br/"
-      },
+      // {
+      //   name: "Casa do Código",
+      //   logo: "themes/yellow-swan/img/casadocodigo.png",
+      //   url: "http://www.casadocodigo.com.br"
+      // },
+      // {
+      //   name: "Faculdades Bilac",
+      //   logo: "themes/yellow-swan/img/bilac.jpg",
+      //   url: "http://bilac.com.br/"
+      // },
+      // {
+      //   name: "Allgoo",
+      //   logo: "themes/yellow-swan/img/allgoo.jpg",
+      //   url: "https://www.allgoo.com.br/"
+      // },
       {
         name: "Designa",
         logo: "themes/yellow-swan/img/designa.png",

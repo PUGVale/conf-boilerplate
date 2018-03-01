@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
-<h4>Faculdade Bilac</h4>
+<h4><%= @conf.venue %></h4>
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
   <span itemprop="addressLocality"><%= @conf.city %></span>,

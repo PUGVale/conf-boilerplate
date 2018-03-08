@@ -1,3 +1,10 @@
+/**
+ * @Author: Henrique Liberato <hliberato>
+ * @Date:   02-02-2018
+ * @Last modified by:   hliberato
+ * @Last modified time: 08-03-2018
+ */
+
 module.exports = {
 
   prompts: false,
@@ -10,7 +17,7 @@ module.exports = {
       name: "4º encontro Python Vale",
       logo: "themes/yellow-swan/img/logo.png",
       description: "Grupo de usuários Python do vale!",
-      date: "17 de março de 2017",
+      date: "17 de março de 2018",
       // If your event is free, just comment this line
       // price: "1 quilo de feijão",
       venue: "CEFE (Centro de Formação do Educador)",
@@ -22,8 +29,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Call 4 Papers",
-        link: "https://speakerfight.com/events/4o-python-vale/"
+        text: "Inscreva-se",
+        link: "https://www.sympla.com.br/4-python-vale__253423"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property

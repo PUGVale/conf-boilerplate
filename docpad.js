@@ -52,7 +52,7 @@ module.exports = {
       'about',
       'location',
       // 'speakers',
-      // 'schedule',
+      'schedule',
       'sponsors',
       'partners',
       'contact'
@@ -73,91 +73,122 @@ module.exports = {
     schedule: [
       {
         name: "Credenciamento",
-        time: "9h40",
+        time: "9:40 às 10:00",
       },
       {
         name: "Abertura oficial",
-        time: "10h00",
+        time: "10:00 às 10:20",
       },
       {
-        name: "Mateus Vieira",
-        photo: "themes/yellow-swan/img/speakers/mateus.jpg",
-        bio: "Recifense, apaixonado por macaxeira com carne de sol e queijo, Bacharel em Ciências da Computação na Universidade Católica de Pernambuco, membro do PUG-PE, Programador autodidata e anos de Python.",
+        name: "Palestra #1",
+        photo: "",
+        bio: "",
         company: "",
         link: {
-          href: "br.linkedin.com/in/mateusvieira",
+          href: "",
           text: ""
         },
-        presentation: {
-          title: "Django - Ridiculamente Rápido",
-          description: "Por que Django? Django torna o desenvolvimento de excelentes aplicações WEB mais rápido, fácil e com menos códigos sem perder a qualidade, confiabilidade e robustez.",
-          time: "09h20"
+         presentation: {
+          title: "Palestra #1",
+          description: "-",
+          time: "10:20 às 11:00"
         }
       },
       {
-        name: "Paulo Luan",
-        photo: "themes/yellow-swan/img/speakers/paulo.jpg",
-        bio: "Mais de 7 anos de xp em desenvolvimento, trabalhou nas maiores consultorias de software do país em projetos de grande relevância como o backend do internet banking de um dos maiores bancos da américa latina e um ecommerce global de vendas da Motorola. Apaixonado por software livre, hacker-ativista e aspirante a empreendedor.",
-        company: "",
-        link: {
-          href: "https://www.github.com/pauloluan/",
-          text: ""
-        },
-        presentation: {
-          title: "12 passos para melhoria de projetos de software",
-          description: "Desenvolver um projeto de software não é uma tarefa simples, principalmente quando se faz necessário cumprir prazos e manter a qualidade. O Joel test sao 12 passos simples criados pelo fundador do Stack overflow para melhorar a qualidade do produto final apontando temas recorrentes de projetos de software. A palestra abordará os 12 passos fazendo um paralelo com exemplos de ferramentas e projetos reais.",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Coffee Break",
-        time: "10h40",
-      },
-      {
-        name: "Aditya Tantravahi",
-        photo: "themes/yellow-swan/img/speakers/aditya.jpg",
-        bio: "Mestrado em Computação Aplicada pelo INPE , entusiasta do mundo de dados a analytics, além de alguns anos brincando em empresas e startups com ciência de dados, machine learning e outras coisas mais!",
+        name: "Intervalo: Palestra Nasa",
+        photo: "themes/yellow-swan/img/nasa.jpeg",
+        bio: "",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Python e Deep Learning, feito um para o outro!",
-          description: "Deep Learning é a onda do momento e Python uma linguagem de programação fantástica. As redes neurais haviam sido esquecidas por um tempo mas com o poder computacional que temos hoje eles estão de volta, tendo se tornado um dos principais e mais usados métodos de Machine Learning ( Aprendizagem Automática). Embora a matemática por trás dela seja dificil, hoje temos inúmeros pacotes que facilitam o uso de maneira que com conhecimentos básicos de Estatística , Cálculo Diferencial e Algebra Linear um iniciante consegue fazer coisa incríveis com redes neurais!",
-          time: "11h10"
+          title: "Intervalo: Palestra Nasa",
+          description: "STEM: Science, technology, engineering and mathematics. Para jovens, crianças e toda a família!",
+          time: "11:00 às 12:00"
         }
       },
       {
-        name: "Bianca Berdugo",
-        photo: "themes/yellow-swan/img/speakers/bianca.jpg",
-        bio: " Joseense, formada em engenharia da computação, full stack na empresa Brasil317 e futura cientista de dados (fé no pai).",
+        name: "Intervalo: Almoço",
+        time: "12:00 às 13:30",
+      },
+      {
+        name: "Palestra #2",
+        photo: "",
+        bio: "",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Raspadinha de dados",
-          description: "Tanta informação preciosa disponível publicamente..como fazer a raspagem destes dados? E o mais importante, como fazer a indexação e pesquisas relevantes destes dados? Entenda como utilizamos Python, Selenium e ElasticSearch para fazer esta raspadinha de dados sem gelar a cabeça.",
-          time: "11h50"
+          title: "Palestra #2",
+          description: "-",
+          time: "13:30 às 14:10"
         }
       },
       {
-        name: "Paulo Giovani",
-        photo: "themes/yellow-swan/img/speakers/paulog.jpg",
-        bio: "Meu nome é Paulo Giovani e sou natural de Campos do Jordão, SP. Atualmente trabalho como professor de programação e banco de dados no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, no Câmpus da cidade de Campos do Jordão. Sou graduado em Computação Científica pela Universidade de Taubaté (UNITAU) e tenho mestrado em Computação Aplicada pelo Instituto Nacional de Pesquisas Espaciais (INPE). Minhas áreas de interesse incluem a programação em Python, banco de dados, mineração de dados, computação gráfica e desenvolvimento de games, dentre outros.",
+        name: "Pausa para a troca de palestrante",
+        time: "14:10 às 14:15",
+      },
+      {
+        name: "Palestra #3",
+        photo: "",
+        bio: "",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Física divertida com VPython!",
-          description: "O VPython é um módulo para a criação de gráficos 3D que atua em conjunto com a linguagem Python. Ele pode ser utilizado para criar diversos tipos de animações, tanto para diversão quanto como para uso educacional. Nessa palestra veremos como essa ferramenta pode ser empregada para auxiliar no estudo e aprendizagem de conceitos que envolvem leis simples da Física.",
-          time: "12h30"
+          title: "Palestra #3",
+          description: "-",
+          time: "14:15 às 14:55"
         }
-      }
+      },
+      {
+        name: "Intervalo: Coffee Break",
+        time: "14:55 às 15:15",
+      },
+      {
+        name: "Palestra #4",
+        photo: "",
+        bio: " ",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Palestra #4",
+          description: "-",
+          time: "15:15 às 15:55"
+        }
+      },
+      {
+        name: "Pausa para a troca de palestrante",
+        time: "15:55 às 16:00",
+      },
+      {
+        name: "Palestra #5",
+        photo: "",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Palestra #5",
+          description: "-",
+          time: "16:00 às 16:40"
+        }
+      },
+      {
+        name: "Sorteios",
+        time: "16:40 às 17:00",
+      },
     ],
 
     //List of Sponsors

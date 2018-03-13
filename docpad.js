@@ -2,7 +2,7 @@
  * @Author: Henrique Liberato <hliberato>
  * @Date:   02-02-2018
  * @Last modified by:   hliberato
- * @Last modified time: 08-03-2018
+ * @Last modified time: 13-03-2018
  */
 
 module.exports = {
@@ -52,7 +52,7 @@ module.exports = {
       'about',
       'location',
       // 'speakers',
-      'schedule',
+      // 'schedule',
       'sponsors',
       'partners',
       'contact'
@@ -213,9 +213,9 @@ module.exports = {
         url: "http://znc.com.br/"
       },
       {
-        name: "Necto",
+        name: "Alpha Lumen",
         logo: "themes/yellow-swan/img/alpha.png",
-        url: "http://znc.com.br/"
+        url: "https://www.alphalumen.org.br/"
       },
       // {
       //   name: "Casa do Código",

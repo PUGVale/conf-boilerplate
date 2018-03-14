@@ -210,18 +210,18 @@ module.exports = {
       {
         name: "Necto",
         logo: "themes/yellow-swan/img/necto.png",
-        url: "http://znc.com.br/"
+        url: "https://www.nectosystems.com.br/"
       },
       {
         name: "Alpha Lumen",
         logo: "themes/yellow-swan/img/alpha.png",
         url: "https://www.alphalumen.org.br/"
       },
-      // {
-      //   name: "Casa do Código",
-      //   logo: "themes/yellow-swan/img/casadocodigo.png",
-      //   url: "http://www.casadocodigo.com.br"
-      // },
+      {
+        name: "Science Days 2018",
+        logo: "themes/yellow-swan/img/sd.jpg",
+        url: "https://www.alphalumen.org.br/science-days-brazil-2018"
+      },
       // {
       //   name: "Faculdades Bilac",
       //   logo: "themes/yellow-swan/img/bilac.jpg",

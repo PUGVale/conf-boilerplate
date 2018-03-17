@@ -2,7 +2,7 @@
  * @Author: Henrique Liberato <hliberato>
  * @Date:   02-02-2018
  * @Last modified by:   hliberato
- * @Last modified time: 13-03-2018
+ * @Last modified time: 16-03-2018
  */
 
 module.exports = {
@@ -51,8 +51,8 @@ module.exports = {
     sections: [
       'about',
       'location',
-      // 'speakers',
-      // 'schedule',
+      'speakers',
+      'schedule',
       'sponsors',
       'partners',
       'contact'
@@ -75,13 +75,17 @@ module.exports = {
         name: "Credenciamento",
         time: "9:40 às 10:00",
       },
+
+
       {
         name: "Abertura oficial",
         time: "10:00 às 10:20",
       },
+
+
       {
-        name: "Palestra #1",
-        photo: "",
+        name: "Diogo Felix",
+        photo: "themes/yellow-swan/img/speakers/diogo.jpg",
         bio: "",
         company: "",
         link: {
@@ -89,15 +93,17 @@ module.exports = {
           text: ""
         },
          presentation: {
-          title: "Palestra #1",
-          description: "-",
+          title: "Hydrogen - Live programing com Python",
+          description: "Esta palestra tem como objetivo mostrar uma nova ferramenta que talvez mude tua forma de atacar e explorar pequenos problemas: o Hydrogen. O Hydrogen é uma integração do Jupyter/IPython dentro do Atom, mas não se engane, ele foi baseado nas ídeias de programação interativa da palestra 'Inventing on Principle' do Bret Victor, possui ótimo suporte a diversas bibliotecas como Pandas, Matplotlib, Plotly entre outras. Ele também não é limitado apenas a linguagem Python, inclusive você pode rodar diversas linguagens no mesmo arquivo, além de outras funcionalidades. Será um live-code aonde irei implementar um crawler(usando splinter/selenium, requests e beautifulsoup), mexer com Pandas e usar algumas bibliotecas para demonstrar o potencial do Hydrogen.",
           time: "10:20 às 11:00"
         }
       },
+
+
       {
-        name: "Intervalo: Palestra Nasa",
-        photo: "themes/yellow-swan/img/nasa.jpeg",
-        bio: "",
+        name: "Intervalo: Palestra Nasa - George Francis",
+        photo: "themes/yellow-swan/img/speakers/nasa.png",
+        bio: "Diretor e engenheiro na Kennedey Space Center (KSC) da NASA. Engenheiro e diretor de engenharia para o Comando de Operações Especiais da Força Aérea dos EUA.",
         company: "",
         link: {
           href: "",
@@ -109,32 +115,40 @@ module.exports = {
           time: "11:00 às 12:00"
         }
       },
+
+
       {
         name: "Intervalo: Almoço",
         time: "12:00 às 13:30",
       },
+
+
       {
-        name: "Palestra #2",
-        photo: "",
-        bio: "",
+        name: "Kátia Nakamura",
+        photo: "themes/yellow-swan/img/speakers/katia.png",
+        bio: "Kátia é bacharel e mestre em Ciência da Computação pelo Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo e trabalhou por quase 5 anos como Dev Java antes de conhecer o Python. Ama viajar e conhecer pessoas, culturas e lugares pelo mundo! Também adora fotografia e faz do Instagram o seu diário fotográfico.",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Palestra #2",
-          description: "-",
+          title: "Minha jornada após o 1º Django Girls SJC",
+          description: "O 1º Django Girls São José dos Campos aconteceu junto com a Python Brasil [11] em Novembro de 2015. Foi nesse final de semana que conheci pessoas incríveis e um framework que mudaria o rumo da minha vida. Gostaria de compartilhar a minha jornada até aqui, as experiências e os grandes desafios. :)",
           time: "13:30 às 14:10"
         }
       },
+
+
       {
         name: "Pausa para a troca de palestrante",
         time: "14:10 às 14:15",
       },
+
+
       {
-        name: "Palestra #3",
-        photo: "",
+        name: "Silvana Elisabete",
+        photo: "themes/yellow-swan/img/speakers/silvana.jpg",
         bio: "",
         company: "",
         link: {
@@ -142,49 +156,59 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "Palestra #3",
+          title: "A Lente de Aumento do Medo",
           description: "-",
           time: "14:15 às 14:55"
         }
       },
+
+
       {
         name: "Intervalo: Coffee Break",
         time: "14:55 às 15:15",
       },
+
+
       {
-        name: "Palestra #4",
-        photo: "",
-        bio: " ",
+        name: "Paulo Moura",
+        photo: "themes/yellow-swan/img/speakers/paulom.jpg",
+        bio: "Formado em Sistemas de Informação e pós graduado em Gerenciamento de projetos pela FIAP, 16 anos no mercado de tecnologia atuou nas maiores consultorias como Deloitte, IBM, Accenture entre outras em mais de 30 projetos globais e de grande expressão no território nacional.",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Palestra #4",
-          description: "-",
+          title: "Fico ou não fico no Brasil? Quais são as minhas chances por aqui?",
+          description: "Vamos voltar um pouco ao passado e dar uma olhada na evolução tecnologica passando por cases de sucesso que hoje ultrapassam bilhões de dólares. Entenda como o Brasil esta posicionado ao mercado mundial e como esta a nossa economia nesse exato momento. Responda as seguintes perguntas: - Será que pego minhas coisas e vou embora do país? - Será que é o momento exato para investir por aqui? - Como me posicionar no mercado?",
           time: "15:15 às 15:55"
         }
       },
+
+
       {
         name: "Pausa para a troca de palestrante",
         time: "15:55 às 16:00",
       },
+
+
       {
-        name: "Palestra #5",
-        photo: "",
-        bio: "",
+        name: "Willian Justen",
+        photo: "themes/yellow-swan/img/speakers/willian.jpg",
+        bio: "Desenvolvedor Front-end na Toptal, escritor de blog nas horas vagas e instrutor de cursos na Udemy com mais de 30 mil alunos. Apaixonado por tecnologia e compartilhamento de conhecimento, nos últimos tempos se dedicou a criação de cursos, discussões sobre trabalho remoto e fotografia, onde acabei ganhando prêmio de fotógrafo de 2017 pelo Unsplash.",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Palestra #5",
-          description: "-",
+          title: "Git, Github e Open Source: por que são tão importantes na vida de um dev?",
+          description: "Nessa palestra eu pretendo falar um pouco sobre o que são essas palavrinhas, como funcionam e um pequeno guia sobre esse mundo maravilhoso.",
           time: "16:00 às 16:40"
         }
       },
+
+
       {
         name: "Sorteios",
         time: "16:40 às 17:00",
@@ -222,11 +246,11 @@ module.exports = {
         logo: "themes/yellow-swan/img/sd.jpg",
         url: "https://www.alphalumen.org.br/science-days-brazil-2018"
       },
-      // {
-      //   name: "Faculdades Bilac",
-      //   logo: "themes/yellow-swan/img/bilac.jpg",
-      //   url: "http://bilac.com.br/"
-      // },
+      {
+        name: "Dunluce Irish Pub",
+        logo: "themes/yellow-swan/img/pub.jpg",
+        url: "http://www.dunlucepub.com.br/"
+      },
       // {
       //   name: "Allgoo",
       //   logo: "themes/yellow-swan/img/allgoo.jpg",
